@@ -1,0 +1,20 @@
+{
+    "name": "MultiplayerModule.System",
+    "rootNamespace": "",
+    "references": [
+        "MultiplayerModule.Interface",
+        "GameCoreModule.Interface",
+        "Zenject",
+        "FishNet.Runtime",
+        "FishNet.Demos"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

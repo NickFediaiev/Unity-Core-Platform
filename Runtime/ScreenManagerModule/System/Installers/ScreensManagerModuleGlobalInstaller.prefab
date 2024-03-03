@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1137264725756246659}
-  - component: {fileID: -4154497068751955331}
+  - component: {fileID: 49107761994135999}
   m_Layer: 0
   m_Name: ScreensManagerModuleGlobalInstaller
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-4154497068751955331
+--- !u!114 &49107761994135999
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,7 +41,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8562285856639433645}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6912d5feaf5741b18ccb31f15384fa8a, type: 3}
+  m_Script: {fileID: 11500000, guid: fab7c6fb2709fcc4b9c1c4d84ed6e8ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rootScreensCanvas: {fileID: 8101934566153184656, guid: 3edcdc2a48e9e482390ce2d659b7df7b, type: 3}
+  rootScreensCanvas: {fileID: 4521704781178394203, guid: ca8ded675acc7d64d8a2ba11947e53fb, type: 3}

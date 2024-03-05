@@ -4,7 +4,8 @@
     "references": [
         "Zenject",
         "ScreenManagerModule.Interface",
-        "UniTask"
+        "UniTask",
+        "GameCoreModule.Interface"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

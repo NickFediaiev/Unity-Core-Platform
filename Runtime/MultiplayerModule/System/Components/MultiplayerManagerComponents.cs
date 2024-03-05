@@ -13,5 +13,11 @@ namespace MultiplayerModule.System.Components
         [SerializeField] PlayerSpawner playerSpawner;
         [SerializeField] NetworkHudCanvases networkHudCanvases;
         [SerializeField] Transport transport;
+        
+        public NetworkManager NetworkManager => networkManager;
+        public ObserverManager ObserverManager => observerManager;
+        public PlayerSpawner PlayerSpawner => playerSpawner;
+        public NetworkHudCanvases NetworkHudCanvases => networkHudCanvases;
+        public Transport Transport => transport;
     }
 }

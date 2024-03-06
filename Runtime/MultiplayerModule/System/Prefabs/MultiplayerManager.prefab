@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1765719975914064683}
   - component: {fileID: 4370162153761954208}
+  - component: {fileID: 2253397076533416778}
   m_Layer: 0
   m_Name: MultiplayerManager
   m_TagString: Untagged
@@ -50,6 +51,40 @@ MonoBehaviour:
   playerSpawner: {fileID: 7391092065198459263}
   networkHudCanvases: {fileID: 4407287166415074643}
   transport: {fileID: 0}
+  networkObserver: {fileID: 0}
+--- !u!114 &2253397076533416778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108403913603202046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b716c41e9b56b4baafaf13a523ba2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <IsNested>k__BackingField: 0
+  <ComponentIndex>k__BackingField: 0
+  <PredictedSpawn>k__BackingField: {fileID: 0}
+  _networkBehaviours:
+  - {fileID: 0}
+  <ParentNetworkObject>k__BackingField: {fileID: 0}
+  <ChildNetworkObjects>k__BackingField: []
+  SerializedTransformProperties:
+    Position: {x: 8.485595, y: -2.599813, z: -15.18426}
+    Rotation: {x: 0, y: 0, z: 0, w: 1}
+    LocalScale: {x: 1, y: 1, z: 1}
+  _isNetworked: 1
+  _isGlobal: 0
+  _initializeOrder: 0
+  _defaultDespawnType: 0
+  NetworkObserver: {fileID: 0}
+  <PrefabId>k__BackingField: 0
+  <SpawnableCollectionId>k__BackingField: 0
+  _scenePathHash: 0
+  <SceneId>k__BackingField: 0
+  <AssetPathHash>k__BackingField: 10087696321199581022
 --- !u!1001 &134584486200427475
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,3 +1,4 @@
+using FishNet.Managing;
 using GameCoreModule.Interface.Installers;
 using MultiplayerModule.Interface.Interfaces;
 using MultiplayerModule.System.Components;
@@ -9,6 +10,7 @@ namespace MultiplayerModule.System.Installers
     public class MultiplayerModuleInstaller : ModuleInstallerBase<MultiplayerLocalInstaller>
     {
         [SerializeField] private MultiplayerManagerComponents multiplayerManagerComponents;
+        [SerializeField] private RpcObserver rpcObserver;
         
         protected override string SubContainerName => "Multiplayer";
         
@@ -20,6 +22,7 @@ namespace MultiplayerModule.System.Installers
             
             //TODO: bind into subcontainer only
             Container.Bind<MultiplayerManagerComponents>().FromComponentInNewPrefab(multiplayerManagerComponents).AsSingle();
+            Container.Bind<RpcObserver>().FromComponentInNewPrefab(rpcObserver).AsSingle();
         }
     }
 

@@ -44,4 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f66ebaa28bd947d2b18cfb844d0e9b14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiplayerManagerComponents: {fileID: 4370162153761954208, guid: 2324a16045ca64f4c8396b4d7e25c263, type: 3}
+  multiplayerManagerComponents: {fileID: 6537024955403685179, guid: d6e00d2c9e1ed374da9955776409f034, type: 3}
+  rpcObserver: {fileID: 8982641486853702609, guid: e3d2cc441ee9db1419b6ad4a2628ad27, type: 3}

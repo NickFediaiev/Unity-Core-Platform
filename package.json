@@ -1,27 +1,26 @@
 {
-    "name": "com.the1constudio.unitycoreplatform",
-    "version": "0.0.1",
-    "displayName": "Unity Core Platform",
-    "description": "Core platform for Unity projects",
-    "unity": "2022.1",
-    "license": "MIT",
-    "documentationUrl": "https://example.com/",
-    "changelogUrl": "https://example.com/changelog.html",
-    "licensesUrl": "https://example.com/licensing.html",
-    "dependencies": {
-   },
-   "keywords": [
-      "keyword1"
-    ],
-    "author": {
-      "name": "Nick Fediaiev",
-      "email": "Nick.Fediaiev@gmail.com",
-      "url": "https://www.unity3d.com"
-    },
-    "repository": 
-    {
-     "url": "https://https://github.com/NickFediaiev/Unity-Core-Platform.git",
-     "type": "git"
-    }
+  "name": "com.the1constudio.unitycoreplatform",
+  "version": "0.0.1",
+  "displayName": "Unity Core Platform",
+  "description": "Core platform for Unity projects",
+  "unity": "2022.1",
+  "license": "MIT",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "dependencies": {
+    "com.veriorpies.parrelsync": "https://github.com/VeriorPies/ParrelSync.git?path=/ParrelSync"
+  },
+  "keywords": [
+    "keyword1"
+  ],
+  "author": {
+    "name": "Nick Fediaiev",
+    "email": "Nick.Fediaiev@gmail.com",
+    "url": "https://www.unity3d.com"
+  },
+  "repository": {
+    "url": "https://https://github.com/NickFediaiev/Unity-Core-Platform.git",
+    "type": "git"
   }
-  
+}

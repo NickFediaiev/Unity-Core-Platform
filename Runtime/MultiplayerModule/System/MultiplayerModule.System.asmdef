@@ -6,7 +6,8 @@
         "GameCoreModule.Interface",
         "Zenject",
         "FishNet.Runtime",
-        "FishNet.Demos"
+        "FishNet.Demos",
+        "Unity.TextMeshPro"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

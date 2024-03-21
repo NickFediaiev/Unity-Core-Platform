@@ -1,7 +1,9 @@
 {
     "name": "MultiplayerModule.Interface",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "FishNet.Runtime"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

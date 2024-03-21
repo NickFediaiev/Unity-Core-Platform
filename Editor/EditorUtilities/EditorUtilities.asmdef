@@ -1,0 +1,6 @@
+{
+	"name": "EditorUtilities",
+	"includePlatforms": [
+		"Editor"
+	]
+}
